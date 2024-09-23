@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,90 +10,62 @@
 
 <body>
 
-    <!--
-    <h1 style="background-color: dodgerblue;">O Rei Leão</h1>
-
-    <p style="background-color: tomato;">Clássico da Disney, a animação acompanha Mufasa (voz de James Earl Jones), o Rei Leão, e a rainha Sarabi (voz de
-        Madge Sinclair), apresentando ao reino o herdeiro do trono, Simba (voz de Matthew Broderick). O recém-nascido
-        recebe a bênção do sábio babuíno Rafiki (voz de Robert Guillaume), mas ao crescer é envolvido nas artimanhas de
-        seu tio Scar (voz de Jeremy Irons), o invejoso e maquiavélico irmão de Mufasa, que planeja livrar-se do sobrinho
-        e herdar o trono.</p>
-        <div class="rei">
-        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNvUJKFwcvtAlXtwHXBqcEqJdppgGK7tXDTA&s"></img></div>
-        <div class="reileao"><img src="/img/o-rei-leao.webp" alt=""></div>
-        
-
-        <div class="reileao2"><img src="/img/rei-leao-desenho.webp" alt="usemap" usemap="#workmap"></div>
-
-        <map name="workmap">
-            <area shape="circle" coords="34,44,270,350" href="https://www.youtube.com/watch?v=rHiHRhbTv-Q" alt="Title">
-        </map>
-        </div>  
-
-    <div class="table">
-        <table>
-            <tr>
-                <th>Nome</th>
-                <th>Sobrenome</th>
-                <th>Idade</th>
-            </tr>
-            <tr>
-                <td>Diogenes</td>
-                <td>Carvalho Matias</td>
-                <td>35</td>
-            </tr>
-            <tr>
-                <td>Luí</td>
-                <td>Henrique</td>
-                <td>19</td>
-            </tr>
-            <tr>
-                <td>Josimar</td>
-                <td>Matias</td>
-                <td>38</td>
-            </tr>
-        </table>
-    </div>
-
-    <h3>Introdução</h3>
-    <ul>
-        <li>O que é <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a>?</li>
-        <li>O que é <a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS" target="_blank">CSS</a>?</li>
-        <li>O que é <a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript" target="_blank">JavaScript?</a></li>
-    </ul>
-
-    <h3>Básico</h3>
-    <ol>
-        <li>Como criar um site?</li>
-        <li>Quais programas posso usar para criar um site?</li>
-        <ul>
-            <li>Bloco de Notas</li>
-            <li><a href="https://notepad-plus-plus.org/downloads/" target="_blank">Notepad+</a></li>
-            <li><a href="https://www.sublimetext.com/download" target="_blank">Sublime Text 3</a></li>
-            <li><a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a></li>
-        </ul>
-    </ol
-    -->
-    
-
-    <table class="table" border="5">
-        <tr>
-            <td colspan="2">MUSICAS</td>
-        </tr>
-        <tr>
-            <td>Phonk<audio controls autoplay><source src="/aud/INTERWORLD_METAMORPHOSIS_(youconvert.net).mp3"></audio></td>
-            <td>Sertanejo<audio controls autoplay><source src="/aud/Matheus_Kauan_-_Quarta_Cadeira_Ao_Vivo_Em_Goiania_2018_ft_Jorge_Mateus_(youconvert.net).mp3"></audio> </td>
-        </tr>
-        <tr>
-            <td>Hakuna Matata<audio controls autoplay><source src="/aud/O_Rei_Leao_Hakuna_Matata_(youconvert.net).mp3"></audio></td>
-            <td><a href="https://www.tudogostoso.com.br/receita/138558-lasanha-tradicional.html" target="_blank">Lasanha</a></td>
-        </tr>
-        <tr>
-            <td><a href="https://www.tudogostoso.com.br/receita/4928-tapioca.html" target="_blank">Tapioca</a></td>
-            <td><a href="https://www.tudogostoso.com.br/receita/31593-pudim-de-leite-condensado.html" target="_blank">Pudim</a></td>
-        </tr>
-    </table>
-
+    <h1>Formulário</h1>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            Nome: <input type="text"><br>
+            Endereço: <input type="text"><br>
+            Cidade: <input type="text"><br>
+            Estado <select name="" id="">
+                <option value="">Acre</option>
+                <option value="">Alagoas</option>
+                <option value="">Amapá</option>
+                <option value="">Amazonas</option>
+                <option value="">Bahia</option>
+                <option value="">Ceará</option>
+                <option value="">Distrito Federal*</option>
+                <option value="">Espírito Santo</option>
+                <option value="">Goiás</option>
+                <option value="">Maranhã</option>
+                <option value="">Mato Grosso</option>
+                <option value="">Mato Grosso do Sul</option>
+                <option value="">Minas Gerais</option>
+                <option value="">Pará</option>
+                <option value="">Paraíba</option>
+                <option value="">Paraná</option>
+                <option value="">Pernambuco</option>
+                <option value="">Piauí</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Rio Grande do Norte</option>
+                <option value="">Rondônia</option>
+                <option value="">Santa Catarina</option>
+                <option value="">São Paulo</option>
+                <option value="">Sergipe</option>
+                <option value="">Tocantins</option>
+            </select>
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="">
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            Natureza do Cargo<br>
+            <input type="radio">Gerência <input type="radio">Financeiro <input type="radio"> Recepção <input
+                type="radio"> Administrativo <input type="radio"> Jurídico
+            <br><br>
+            Área de interesse<br>
+            <input type="checkbox"> Computação <input type="checkbox"> Biologia <input type="checkbox"> Meio Ambiente
+            <input type="checkbox"> Engenharia <input type="checkbox"> História<br><br>
+            
+            Meu Currículo<textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="">
+        <input type="reset" value="Enviar">
+        <input type="submit" value="Limpar">
+    </form>
 </body>
 
 </html>
